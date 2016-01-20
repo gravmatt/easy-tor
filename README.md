@@ -47,14 +47,14 @@ OR
 **2.** Execute this command inside your terminal.
 
 ```
-$ bash -c "$(curl -Ls tools.gravmatt.com/mac_tor_tools.sh)"
+$ bash -c "$(curl -Ls https://github.com/gravmatt/easy-tor/raw/master/install.sh)"
 ```
 
 ### Command Line Tools
 
 After you installed Tor and the command line tools you can use this command for easily starting and stopping the Tor service.
 
-###### tor_on
+#### tor_on
 
 Starts the Tor service and set the Mac socks proxy to port 9050.
 
@@ -62,24 +62,24 @@ Port 9050 is the Tor default port but you should double check to make sure the s
 
 Tor config file: */usr/local/etc/tor/torrc*
 
-###### tor_off
+#### tor_off
 
 Stops the Tor service and removes the socks proxy.
 
-###### mytorip
+#### mytorip
 
 Get your Tor IP address.
 
-###### mytoriplookup
+#### mytoriplookup
 
 Make a IP lookup of your Tor IP address.
 
-###### myip
+#### myip
 
 Get your normal IP address. (Does not use the Tor service!)
 
-###### myiplookup
+#### myiplookup
 
 Make a lookup of your normal IP address. (Does not use the Tor service!)
 
-###### Follow me on [twitter @gravmatt](https://twitter.com/gravmatt)
+#### Follow me on [twitter @gravmatt](https://twitter.com/gravmatt)
