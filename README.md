@@ -47,7 +47,7 @@ OR
 **2.** Execute this command inside your terminal.
 
 ```
-$ bash -c "$(curl -Ls https://github.com/gravmatt/easy-tor/raw/master/install.sh)"
+$ bash -c "$(curl -Ls github.com/gravmatt/easy-tor/raw/master/install.sh)"
 ```
 
 ### Command Line Tools
@@ -82,4 +82,4 @@ Get your normal IP address. (Does not use the Tor service!)
 
 Make a lookup of your normal IP address. (Does not use the Tor service!)
 
-#### Follow me on [twitter @gravmatt](https://twitter.com/gravmatt)
+###### Follow me on [twitter @gravmatt](https://twitter.com/gravmatt)
